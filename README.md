@@ -37,7 +37,7 @@ oc import-image --from quay.io/alexbarbosa1989/sso74-openshift-rhel8-custom-owne
 ~~~
 oc get is | grep sso74-openshift-rhel8-custom-owners 
 
-NAME                             DOCKER REPO                                              TAGS      UPDATED
+NAME                                   DOCKER REPO                                                      TAGS      UPDATED
 sso74-openshift-rhel8-custom-owners    172.30.1.1:5000/openshift/sso74-openshift-rhel8-custom-owners    latest    12 minutes ago
 ~~~
 
