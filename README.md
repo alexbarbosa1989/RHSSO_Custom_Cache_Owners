@@ -41,3 +41,4 @@ NAME                             DOCKER REPO                                    
 sso74-openshift-rhel8-custom-owners    172.30.1.1:5000/openshift/sso74-openshift-rhel8-custom-owners    latest    12 minutes ago
 ~~~
 
+4- Now the image is available to be used into the namespaces and templates
