@@ -8,7 +8,7 @@ git clone https://github.com/alexbarbosa1989/RHSSO_Custom_Cache_Owners
 
 2- Pull SSO image from Red Hat Containers Images Catalog https://catalog.redhat.com/software/containers/explore
 
-3- Build the custom image using the Dockerfile (Should be located in the directory where is located the Dockerfile):
+3- Build the custom image using the Dockerfile (You must be located in the directory where is the Dockerfile):
 
 ~~~
 podman build -t abarbosa/sso74-openshift-rhel8-custom-owners .
