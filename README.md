@@ -18,7 +18,7 @@ podman build -t abarbosa/sso74-openshift-rhel8-custom-owners .
    In this case the image is moved to quay.io https://quay.io/repository/alexbarbosa1989/sso74-openshift-rhel8-custom-owners
 
 
-#Importing the image in Openshift
+## Importing the image in Openshift
 
 1- Log in into the Openshift platform and move to openshift project:
 
