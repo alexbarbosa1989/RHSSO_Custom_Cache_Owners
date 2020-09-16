@@ -14,9 +14,20 @@ git clone https://github.com/alexbarbosa1989/RHSSO_Custom_Cache_Owners
 podman build -t abarbosa/sso74-openshift-rhel8-custom-owners .
 ~~~
 
-4- Now the image is ready to use. Can be copied to a image Repository to make it able to be pulled from any location. 
-   In this case the image is moved to quay.io https://quay.io/repository/alexbarbosa1989/sso74-openshift-rhel8-custom-owners
+4- Now the image is ready to use: 
+~~~
+podman images
+REPOSITORY                                              TAG     IMAGE ID      CREATED        SIZE
+localhost/abarbosa/sso74-openshift-rhel8-custom-owners  latest  e22a15d41f76  7 minutes ago  1.02 GB
+registry.redhat.io/rh-sso-7/sso74-openshift-rhel8       latest  82c17faee0ab  6 weeks ago    1.02 GB
+~~~
 
+5- Can be copied to a image Repository to make it able to be pulled from any location. 
+   In this case the image is moved to my quay.io account (Same method applies to DockerHub):
+
+~~~
+ skopeo copy containers-storage:localhost/abarbosa/sso74-openshift-rhel8-custom-owners docker://quay.io/alexbarbosa1989/sso74-openshift-rhel8-custom-owners
+~~~
 
 ## Importing the image in Openshift
 
