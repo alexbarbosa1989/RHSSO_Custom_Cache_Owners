@@ -22,7 +22,7 @@ localhost/abarbosa/sso74-openshift-rhel8-custom-owners  latest  e22a15d41f76  7 
 registry.redhat.io/rh-sso-7/sso74-openshift-rhel8       latest  82c17faee0ab  6 weeks ago    1.02 GB
 ~~~
 
-5- Can be copied to a image Repository to make it able to be pulled from any location. 
+5- Can be copied to an image Repository to make it able to be pulled from any location. 
    In this case the image is moved to my quay.io account (Same method applies to DockerHub):
 
 ~~~
