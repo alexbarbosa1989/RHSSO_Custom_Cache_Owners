@@ -40,7 +40,7 @@ oc project openshift
 2- Import the image from the container repository:
 
 ~~~
-oc import-image --from quay.io/alexbarbosa1989/sso74-openshift-rhel8-custom-owners --confirm
+oc import-image sso74-openshift-rhel8-custom-owners --from quay.io/alexbarbosa1989/sso74-openshift-rhel8-custom-owners --confirm
 ~~~
 
 3- Verify the new imagestream:
